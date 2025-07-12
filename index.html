@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="mediafiles/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/home.css">
+
     <title>Home | Auralis | test </title>
+
 </head>
 
 <body>
@@ -111,14 +115,29 @@
         <div class="topupBtn-container" onclick="topFunction()" id="topupBtn">
             <span><i class="fas fa-arrow-up"></i></span>
         </div>
-        <!-- <section class="section home special-section" id="home">
-            <div class="contVideo">
+        <!-- <section class="section home special-section" id="home"> -->
+            <!-- <div class="contVideo">
                 <video autoplay muted loop>
                     <source src="mediafiles/ipoVideo.mp4">
                      
                 </video>
-            </div>
-        </section> -->
+            </div> -->
+        <!-- </section> -->
+<section class="section home special-section" id="home">
+  <div class="carousel swiper">
+    <div class="swiper-wrapper">
+      <!-- Slide items: replace with your own images/content -->
+      <div class="swiper-slide"><img src="mediafiles/auralis1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="mediafiles/auralis4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="mediafiles/auralis7.jpg" alt=""></div>
+      
+    </div>
+    <!-- If you want navigation or pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
 
 
         <section class="section products" id="products">
@@ -141,8 +160,8 @@
                             </div>
                             <hr class="divider">
                             <div class="scrollBtns upperBtns">
-                                <button class="scrollRightBtn"><i class="fas fa-angle-right"></i></button>
-                                <button class="scrollLeftBtn"><i class="fas fa-angle-left"></i></button>
+                                <button class="scrollRightBtn">><i class="fas fa-angle-right"></i></button>
+                                <button class="scrollLeftBtn"><<i class="fas fa-angle-left"></i></button>
                             </div>
                         </div>
                          
@@ -537,7 +556,7 @@
                     </div>
                     <div class="cardContainer">
                         <div class="profileDiv">
-                            <img src="mediafiles/teamMedia/Vinay.jpeg" alt="Demo User Image">
+                            <img src="mediafiles/teamMedia/vinay (2).jpeg" alt="Demo User Image">
                             <h1>Vinay Kumar</h1>
                         </div>
                         <div class="infoDiv">
@@ -631,7 +650,7 @@
 
                  <div class="cardContainer">
                         <div class="profileDiv">
-                            <img src="mediafiles/teamMedia/.jpeg" alt="Demo User Image">
+                            <img src="mediafiles/teamMedia/rohit.png" alt="Demo User Image">
                             <h1>Rohit Singh</h1>
                         </div>
                         <div class="infoDiv">
@@ -990,6 +1009,8 @@
         </section>
     </footer>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+       <script src="js/home.js"></script>
 </body>
 
 
