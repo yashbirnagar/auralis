@@ -45,7 +45,7 @@ html {
     --text-background-color-4: #888888;
     --text-background-color-5: #ECECEC;
     --icons-hover-color: #FFFFFF;
-    --hover-color: #50C878;
+    --hover-color: blue;
     --hover-color-2: #c85050;
     --box-shadows-color-1: 5px 10px 25px 5px #50C878;
     --box-shadows-color-2: 5px 10px 25px 5px #E0E0E0;
@@ -1183,7 +1183,7 @@ main .topupBtn-container:hover {
     height: 600px;
     box-sizing: border-box;
     color: var(--hover-color);
-    background-color: var(--text-background-color-1);
+    background-color: #811811;
     cursor: url("../mediafiles/icons/right-arrow.svg") 16 16, auto !important;
 }
 
